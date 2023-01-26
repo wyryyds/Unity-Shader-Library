@@ -61,6 +61,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Shaders\NiloOutlineUtil.hlsl" />
+    <None Include="Assets\Shaders\Chapter5-SimpleShader.shader" />
     <None Include="Assets\Shaders\NiloZOffset.hlsl" />
     <None Include="Assets\Shaders\SimpleURPToonLitOutlineExample_Shared.hlsl" />
     <None Include="Assets\Shaders\SimpleURPToonLitOutlineExample_LightingEquation.hlsl" />
