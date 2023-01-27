@@ -13,7 +13,6 @@ Shader"Unity Shaders Book/Chapter 6/Diffuse HalfLambert"
 
 				CGPROGRAM
 
-
 				#pragma vertex vert
 				#pragma fragment frag
 
@@ -42,10 +41,15 @@ Shader"Unity Shaders Book/Chapter 6/Diffuse HalfLambert"
 				fixed4 frag(v2f i) :SV_Target
 				{
 					fixed3 ambient = UNITY_LIGHTMODEL_AMBIENT.xyz;
+
 					fixed3 worldNormal = normalize(i.worldNormal);
+
 					fixed3 worldLightDir = normalize(_WorldSpaceLightPos0.xyz);
-					fixed halfLambert = dot(worldNormal, worldLightDir) * 0.5+0.3;
+					//半兰伯特模型：在兰伯特模型的基础上把光源方向与表面法向点积的结果直接映射到[0,1]
+					fixed halfLambert = dot(worldNormal, worldLightDir) * 0.5+0.5;
+
 					fixed3 diffuse = _LightColor0.rgb * _Diffuse.rgb * halfLambert;
+
 					fixed3 color = ambient + diffuse;
 					return fixed4(color, 1.0);
 				}
