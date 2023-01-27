@@ -60,15 +60,18 @@
     <Compile Include="Assets\Scripts\SimpleCameraController.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\Shaders\Shader_Book\Chapter6-SpecularVertexLevel.shader" />
     <None Include="Assets\Shaders\Shader_Book\Chapter6-DiffusePixelLevel.shader" />
     <None Include="Assets\Shaders\NiloOutlineUtil.hlsl" />
     <None Include="Assets\Shaders\Shader_Book\Chapter6-HalfLambert.shader" />
     <None Include="Assets\Shaders\Shader_Book\Chapter5-SimpleShader.shader" />
     <None Include="Assets\Shaders\NiloZOffset.hlsl" />
+    <None Include="Assets\Shaders\Shader_Book\Chapter6-SPecularPixelLevel.shader" />
     <None Include="Assets\Shaders\SimpleURPToonLitOutlineExample_Shared.hlsl" />
     <None Include="Assets\Shaders\SimpleURPToonLitOutlineExample_LightingEquation.hlsl" />
     <None Include="Assets\Shaders\Shader_Book\Chapter6-DiffuseVertexLevel.shader" />
     <None Include="Assets\Shaders\NiloInvLerpRemap.hlsl" />
+    <None Include="Assets\Shaders\Shader_Book\Chapter6-BlinnPhpng.shader" />
     <None Include="Assets\Shaders\SimpleURPToonLitOutlineExample.shader" />
   </ItemGroup>
   <ItemGroup>

@@ -1,53 +1,56 @@
-Shader "Custom/Chapter6-HalfLambert"
+// Upgrade NOTE: replaced '_World2Object' with 'unity_WorldToObject'
+
+Shader"Unity Shaders Book/Chapter 6/Diffuse HalfLambert"
 {
-    Properties
-    {
-        _Color ("Color", Color) = (1,1,1,1)
-        _MainTex ("Albedo (RGB)", 2D) = "white" {}
-        _Glossiness ("Smoothness", Range(0,1)) = 0.5
-        _Metallic ("Metallic", Range(0,1)) = 0.0
-    }
-    SubShader
-    {
-        Tags { "RenderType"="Opaque" }
-        LOD 200
 
-        CGPROGRAM
-        // Physically based Standard lighting model, and enable shadows on all light types
-        #pragma surface surf Standard fullforwardshadows
+	Properties{
+		_Diffuse("Diffuse",Color) = (1,1,1,1)
+	}
 
-        // Use shader model 3.0 target, to get nicer looking lighting
-        #pragma target 3.0
+		SubShader{
+			Pass{
+				Tags{"LightMode" = "ForwardBase"}
 
-        sampler2D _MainTex;
+				CGPROGRAM
 
-        struct Input
-        {
-            float2 uv_MainTex;
-        };
 
-        half _Glossiness;
-        half _Metallic;
-        fixed4 _Color;
+				#pragma vertex vert
+				#pragma fragment frag
 
-        // Add instancing support for this shader. You need to check 'Enable Instancing' on materials that use the shader.
-        // See https://docs.unity3d.com/Manual/GPUInstancing.html for more information about instancing.
-        // #pragma instancing_options assumeuniformscaling
-        UNITY_INSTANCING_BUFFER_START(Props)
-            // put more per-instance properties here
-        UNITY_INSTANCING_BUFFER_END(Props)
+				#include"Lighting.cginc"
 
-        void surf (Input IN, inout SurfaceOutputStandard o)
-        {
-            // Albedo comes from a texture tinted by color
-            fixed4 c = tex2D (_MainTex, IN.uv_MainTex) * _Color;
-            o.Albedo = c.rgb;
-            // Metallic and smoothness come from slider variables
-            o.Metallic = _Metallic;
-            o.Smoothness = _Glossiness;
-            o.Alpha = c.a;
-        }
-        ENDCG
-    }
-    FallBack "Diffuse"
+				fixed4 _Diffuse;
+
+				struct a2v
+				{
+					float4 vertex : POSITION;
+					float3 normal : NORMAL;
+				};
+				struct v2f
+				{
+					float4 pos : SV_POSITION;
+					float3 worldNormal : TEXCOORDO;
+				};
+
+				v2f vert(a2v v)
+				{
+					v2f o;
+					o.pos = UnityObjectToClipPos(v.vertex);
+					o.worldNormal = mul(v.normal, (float3x3)unity_WorldToObject);
+					return o;
+				}
+				fixed4 frag(v2f i) :SV_Target
+				{
+					fixed3 ambient = UNITY_LIGHTMODEL_AMBIENT.xyz;
+					fixed3 worldNormal = normalize(i.worldNormal);
+					fixed3 worldLightDir = normalize(_WorldSpaceLightPos0.xyz);
+					fixed halfLambert = dot(worldNormal, worldLightDir) * 0.5+0.3;
+					fixed3 diffuse = _LightColor0.rgb * _Diffuse.rgb * halfLambert;
+					fixed3 color = ambient + diffuse;
+					return fixed4(color, 1.0);
+				}
+				ENDCG
+		}
+	}
+		Fallback "Diffuse"
 }
