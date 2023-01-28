@@ -47,7 +47,7 @@ Shader "Unity Shaders Book/Chapter 6/Specular Pixel-Level"
 				o.pos = UnityObjectToClipPos(v.vertex);
 
 				o.worldNormal = mul(v.normal, (float3x3)unity_WorldToObject);
-
+				//将顶点从模型空间转换到世界空间
 				o.worldPos = mul(unity_ObjectToWorld, v.vertex).xyz;
 
 				return o;

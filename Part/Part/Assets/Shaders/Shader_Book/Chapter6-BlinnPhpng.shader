@@ -60,7 +60,7 @@ Shader "Unity Shaders Book/Chapter 6/BlinnPhong"
 				fixed3 reflectDir = normalize(reflect(-worldLightDir, worldNormal));
 
 				fixed3 viewDir = normalize(_WorldSpaceCameraPos.xyz - i.worldPos.xyz);
-
+				//BlinnPhong模型：将视角方向与光照方向相加归一化
 				fixed3 halfDir = normalize(worldLightDir + viewDir);
 
 				fixed3 specular = _LightColor0.rgb * _Specular.rgb * 
