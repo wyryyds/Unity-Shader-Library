@@ -63,6 +63,8 @@
     <None Include="Assets\Shaders\Shader_Book\Chapter6-SpecularVertexLevel.shader" />
     <None Include="Assets\Shaders\Shader_Book\Chapter6-DiffusePixelLevel.shader" />
     <None Include="Assets\Shaders\NiloOutlineUtil.hlsl" />
+    <None Include="Assets\Shaders\Shader_Book\Chapter7-NormalMapWorldSpace.shader" />
+    <None Include="Assets\Shaders\Shader_Book\Chapter7-RampTexture.shader" />
     <None Include="Assets\Shaders\Shader_Book\Chapter7-SingleTexture.shader" />
     <None Include="Assets\Shaders\Shader_Book\Chapter6-HalfLambert.shader" />
     <None Include="Assets\Shaders\Shader_Book\Chapter5-SimpleShader.shader" />
