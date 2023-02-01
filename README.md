@@ -1,2 +1,1 @@
-# Shader_Study
- 初次尝试渲染
+对图形学以及Unity Shader的学习
