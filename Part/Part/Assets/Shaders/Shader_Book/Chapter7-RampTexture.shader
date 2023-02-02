@@ -45,9 +45,11 @@ Shader"Unity Shaders Book/Chapter 7/Ramp Texture"
 			v2f vert(a2v v)
 			{
 				v2f o;
+
 				o.pos = UnityObjectToClipPos(v.vertex);
 				o.worldNormal = UnityObjectToWorldNormal(v.normal);
 				o.worldPos = mul(unity_ObjectToWorld,v.vertex).xyz;
+
 				//利用宏计算经过平铺偏移后的纹理坐标
 				o.uv = TRANSFORM_TEX(v.texcoord, _RampTex);
 				return o;
@@ -56,16 +58,24 @@ Shader"Unity Shaders Book/Chapter 7/Ramp Texture"
 			fixed4 frag(v2f i) :SV_Target
 			{
 				fixed3 worldNormal = normalize(i.worldNormal);
+
 			    fixed3 worldLightDir = normalize(UnityWorldSpaceLightDir(i.worldPos));
+
 				fixed3 ambient = UNITY_LIGHTMODEL_AMBIENT.xyz;
 				//半兰伯特模型
 				fixed halfLambert = 0.5 * dot(worldNormal, worldLightDir) + 0.5;
+
 				fixed3 diffuseColor = tex2D(_RampTex, fixed2(halfLambert, halfLambert)).rgb * _Color.rgb;
+
 				fixed3 diffuse = _LightColor0.rgb * diffuseColor;
+
 				fixed3 viewDir = normalize(UnityWorldSpaceViewDir(i.worldPos));
+
 				fixed3 halfDir = normalize(worldLightDir + viewDir);
+
 				fixed3 specular = _LightColor0.rgb * _Specular.rgb
 					* pow(max(0, dot(worldNormal, halfDir)), _Gloss);
+
 				return fixed4(ambient + diffuse + specular, 1.0);
 			}
 				ENDCG

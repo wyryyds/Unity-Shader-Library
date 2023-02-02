@@ -15,11 +15,11 @@ D:/ShaderStudy/Shader_Study/Part/Part
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-54957
+54025
 Successfully changed project path to: D:/ShaderStudy/Shader_Study/Part/Part
 D:/ShaderStudy/Shader_Study/Part/Part
 Using Asset Import Pipeline V2.
-AS: AutoStreaming module initializing.Refreshing native plugins compatible for Editor in 49.54 ms, found 2 plugins.
+AS: AutoStreaming module initializing.Refreshing native plugins compatible for Editor in 41.65 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.33f1c2 (8e753a737e7b)
 [Subsystems] Discovering subsystems at path D:/unity hub/2020.3.33f1c2/Editor/Data/Resources/UnitySubsystems
@@ -35,90 +35,90 @@ Initialize mono
 Mono path[0] = 'D:/unity hub/2020.3.33f1c2/Editor/Data/Managed'
 Mono path[1] = 'D:/unity hub/2020.3.33f1c2/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/unity hub/2020.3.33f1c2/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56708
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56112
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/unity hub/2020.3.33f1c2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001068 seconds.
+Registered in 0.001086 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 44.97 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 42.26 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.511 seconds
+- Completed reload, in  0.456 seconds
 Domain Reload Profiling:
-	ReloadAssembly (511ms)
-		BeginReloadAssembly (64ms)
+	ReloadAssembly (456ms)
+		BeginReloadAssembly (59ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (390ms)
-			LoadAssemblies (63ms)
+		EndReloadAssembly (347ms)
+			LoadAssemblies (58ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (119ms)
+			SetupTypeCache (103ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (27ms)
-			SetupLoadedEditorAssemblies (153ms)
+			RebuildScriptCaches (23ms)
+			SetupLoadedEditorAssemblies (142ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (45ms)
-				BeforeProcessingInitializeOnLoad (14ms)
-				ProcessInitializeOnLoadAttributes (68ms)
-				ProcessInitializeOnLoadMethodAttributes (21ms)
+				RefreshPlugins (42ms)
+				BeforeProcessingInitializeOnLoad (13ms)
+				ProcessInitializeOnLoadAttributes (63ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003168 seconds.
+Registered in 0.002974 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\ShaderStudy\Shader_Study\Part\Part\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 45.06 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 42.24 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.903 seconds
+- Completed reload, in  0.864 seconds
 Domain Reload Profiling:
-	ReloadAssembly (904ms)
-		BeginReloadAssembly (120ms)
+	ReloadAssembly (864ms)
+		BeginReloadAssembly (121ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (17ms)
-		EndReloadAssembly (742ms)
-			LoadAssemblies (92ms)
+		EndReloadAssembly (700ms)
+			LoadAssemblies (91ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (228ms)
+			SetupTypeCache (220ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (43ms)
-			SetupLoadedEditorAssemblies (304ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (279ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (45ms)
-				BeforeProcessingInitializeOnLoad (73ms)
-				ProcessInitializeOnLoadAttributes (172ms)
-				ProcessInitializeOnLoadMethodAttributes (9ms)
+				RefreshPlugins (42ms)
+				BeforeProcessingInitializeOnLoad (71ms)
+				ProcessInitializeOnLoadAttributes (152ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
 				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.99 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2778 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 132.7 MB.
-System memory in use after: 132.9 MB.
+Unloading 2780 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 133.0 MB.
+System memory in use after: 133.2 MB.
 
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3226.
-Total: 2.963800 ms (FindLiveObjects: 0.227100 ms CreateObjectMapping: 0.124000 ms MarkObjects: 2.513300 ms  DeleteObjects: 0.098500 ms)
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3228.
+Total: 3.012500 ms (FindLiveObjects: 0.221900 ms CreateObjectMapping: 0.126500 ms MarkObjects: 2.562800 ms  DeleteObjects: 0.100400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -133,43 +133,49 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Shaders/Shader_Book/Chapter7-NormalMapWorldSpace.shader
-  artifactKey: Guid(34154e1959444594b88710a2bcf14533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/Shader_Book/Chapter7-NormalMapWorldSpace.shader using Guid(34154e1959444594b88710a2bcf14533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc712fa3aec5177f772d2077923eccf1') in 0.043943 seconds 
+  path: Assets/Shaders/Shader_Book/Chapter7-MaskTexture.shader
+  artifactKey: Guid(e6e9e477833be4d49b479165d53b6ce4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Shader_Book/Chapter7-MaskTexture.shader using Guid(e6e9e477833be4d49b479165d53b6ce4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '918e95b865aa367bd605785082e241dc') in 0.076978 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1888.019095 seconds.
-  path: Assets/Shaders/Shader_Book/Chapter7-NormalMapWorldSpace.shader
-  artifactKey: Guid(34154e1959444594b88710a2bcf14533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/Shader_Book/Chapter7-NormalMapWorldSpace.shader using Guid(34154e1959444594b88710a2bcf14533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '671fdb7686dbff2ebe57d5d7efce870b') in 0.002861 seconds 
+  Time since last request: 23.644010 seconds.
+  path: Assets/Shaders/Shader_Book/Chapter7-MaskTexture.shader
+  artifactKey: Guid(e6e9e477833be4d49b479165d53b6ce4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Shader_Book/Chapter7-MaskTexture.shader using Guid(e6e9e477833be4d49b479165d53b6ce4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '145945034f1080bc261da970260b61b7') in 0.002474 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 27.976422 seconds.
-  path: Assets/Shaders/Shader_Book/Chapter7-NormalMapWorldSpace.shader
-  artifactKey: Guid(34154e1959444594b88710a2bcf14533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/Shader_Book/Chapter7-NormalMapWorldSpace.shader using Guid(34154e1959444594b88710a2bcf14533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6067ebc2c01b7f860ee6016c5c85c334') in 0.002265 seconds 
+  Time since last request: 23.541223 seconds.
+  path: Assets/Shaders/Shader_Book/Chapter7-MaskTexture.shader
+  artifactKey: Guid(e6e9e477833be4d49b479165d53b6ce4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Shader_Book/Chapter7-MaskTexture.shader using Guid(e6e9e477833be4d49b479165d53b6ce4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e5b58ca297d429622619546409e3fb6') in 0.002698 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 10.838516 seconds.
-  path: Assets/Shaders/Shader_Book/Chapter7-NormalMapWorldSpace.shader
-  artifactKey: Guid(34154e1959444594b88710a2bcf14533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/Shader_Book/Chapter7-NormalMapWorldSpace.shader using Guid(34154e1959444594b88710a2bcf14533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc590345793c97eb50de4a4a47c05b6e') in 0.002649 seconds 
+  Time since last request: 85.917163 seconds.
+  path: Assets/Shaders/Shader_Book/Chapter7-MaskTexture.shader
+  artifactKey: Guid(e6e9e477833be4d49b479165d53b6ce4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Shader_Book/Chapter7-MaskTexture.shader using Guid(e6e9e477833be4d49b479165d53b6ce4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4554aa15c5d3bb589c56f30228753460') in 0.002306 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 22.093504 seconds.
-  path: Assets/Shaders/Shader_Book/Chapter7-NormalMapWorldSpace.shader
-  artifactKey: Guid(34154e1959444594b88710a2bcf14533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/Shader_Book/Chapter7-NormalMapWorldSpace.shader using Guid(34154e1959444594b88710a2bcf14533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e4a27c476f2a9a4179feed5feb2b0c2') in 0.002642 seconds 
+  Time since last request: 9.199295 seconds.
+  path: Assets/Shaders/Shader_Book/Chapter7-MaskTexture.shader
+  artifactKey: Guid(e6e9e477833be4d49b479165d53b6ce4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Shader_Book/Chapter7-MaskTexture.shader using Guid(e6e9e477833be4d49b479165d53b6ce4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0b167bbd3ceb4fbc6d56dd7926a22dc') in 0.002537 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 56.491877 seconds.
-  path: Assets/Shaders/Shader_Book/Chapter7-NormalMapWorldSpace.shader
-  artifactKey: Guid(34154e1959444594b88710a2bcf14533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/Shader_Book/Chapter7-NormalMapWorldSpace.shader using Guid(34154e1959444594b88710a2bcf14533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd58ee76490cd007442ca3238a390609a') in 0.002877 seconds 
+  Time since last request: 10.886015 seconds.
+  path: Assets/Shaders/Shader_Book/Chapter7-MaskTexture.shader
+  artifactKey: Guid(e6e9e477833be4d49b479165d53b6ce4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Shader_Book/Chapter7-MaskTexture.shader using Guid(e6e9e477833be4d49b479165d53b6ce4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '038a1b50a0967cb23856166b99865d21') in 0.002407 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 13.180601 seconds.
-  path: Assets/Shaders/Shader_Book/Chapter7-NormalMapWorldSpace.shader
-  artifactKey: Guid(34154e1959444594b88710a2bcf14533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/Shader_Book/Chapter7-NormalMapWorldSpace.shader using Guid(34154e1959444594b88710a2bcf14533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a11d78d4f8607522493f8af15d1e26c0') in 0.002785 seconds 
+  Time since last request: 27.446346 seconds.
+  path: Assets/Shaders/Shader_Book/Chapter7-MaskTexture.shader
+  artifactKey: Guid(e6e9e477833be4d49b479165d53b6ce4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Shader_Book/Chapter7-MaskTexture.shader using Guid(e6e9e477833be4d49b479165d53b6ce4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4210513996fbb30770d85107c2121a99') in 0.002344 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.141222 seconds.
+  path: Assets/Shaders/Shader_Book/Chapter7-MaskTexture.shader
+  artifactKey: Guid(e6e9e477833be4d49b479165d53b6ce4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Shader_Book/Chapter7-MaskTexture.shader using Guid(e6e9e477833be4d49b479165d53b6ce4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5dbcadb551f47e52058734ffb33fecc') in 0.002415 seconds 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
