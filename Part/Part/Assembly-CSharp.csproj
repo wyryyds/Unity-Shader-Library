@@ -71,6 +71,7 @@
     <None Include="Assets\Shaders\Shader_Book\Chapter5-SimpleShader.shader" />
     <None Include="Assets\Shaders\NiloZOffset.hlsl" />
     <None Include="Assets\Shaders\Shader_Book\Chapter7-MaskTexture.shader" />
+    <None Include="Assets\Shaders\Shader_Book\Chapter9-ForwardRendering.shader" />
     <None Include="Assets\Shaders\Shader_Book\Chapter6-SPecularPixelLevel.shader" />
     <None Include="Assets\Shaders\SimpleURPToonLitOutlineExample_Shared.hlsl" />
     <None Include="Assets\Shaders\SimpleURPToonLitOutlineExample_LightingEquation.hlsl" />
