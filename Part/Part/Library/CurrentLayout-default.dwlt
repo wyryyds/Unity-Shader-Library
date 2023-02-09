@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 2048
     height: 1196.8
   m_ShowMode: 4
-  m_Title: Inspector
+  m_Title: Hierarchy
   m_RootView: {fileID: 4}
   m_MinSize: {x: 875, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
@@ -474,7 +474,7 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_ShowContextualTools: 0
   m_WindowGUID: 55124775c928524469bd38e394584645
-  m_Gizmos: 0
+  m_Gizmos: 1
   m_OverrideSceneCullingMask: 6917529027641081856
   m_SceneIsLit: 1
   m_SceneLighting: 1
@@ -483,9 +483,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 3.183018, y: 0.78750014, z: -1.0994709}
+    m_Target: {x: 1.1967514, y: 4.447833, z: -12.252607}
     speed: 2
-    m_Value: {x: 3.183018, y: 0.78750044, z: -1.0994714}
+    m_Value: {x: 1.1967514, y: 4.447833, z: -12.252607}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -532,13 +532,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.005119454, y: -0.99492806, z: 0.0696682, w: -0.072951}
+    m_Target: {x: 0.39775383, y: 0.07256012, z: -0.031574633, w: 0.9141259}
     speed: 2
-    m_Value: {x: -0.005014737, y: -0.9949949, z: 0.0696729, w: -0.071455546}
+    m_Value: {x: 0.39768687, y: 0.07392766, z: -0.032169677, w: 0.9139721}
   m_Size:
-    m_Target: 1.7858176
+    m_Target: 2.6532
     speed: 2
-    m_Value: 1.8699661
+    m_Value: 2.6532
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -719,23 +719,23 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: fe94ffff
-      m_LastClickedID: -27394
-      m_ExpandedIDs: aa9affff24e9ffff76e9ffff6efbffff
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 52c2ffffe8e9ffff4eefffff30f8ffff6efbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: Teapot
-        m_OriginalName: Teapot
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: -14612
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 11}
       m_SearchString: 
@@ -783,8 +783,7 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SkipHidden: 0
     m_SearchArea: 2
-    m_Folders:
-    - Assets/Shaders/Shader_Book
+    m_Folders: []
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 0
@@ -798,7 +797,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 584f0000
     m_LastClickedID: 20312
-    m_ExpandedIDs: 00000000124800001448000016480000184800001a4800001c4800001e48000020480000224800002448000026480000284800002a4800002c4800002e48000030480000324800003448000036480000
+    m_ExpandedIDs: 0000000010480000124800001448000016480000184800001a4800001c4800001e48000020480000224800002448000026480000284800002a4800002c4800002e4800003048000032480000344800003648000038480000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -823,21 +822,21 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_AssetTreeState:
-    scrollPos: {x: 0, y: 1440}
+    scrollPos: {x: 0, y: 2105.7998}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: ffffffff00000000124800001448000016480000184800001a4800001c4800001e48000020480000224800002448000026480000284800002a4800002e480000304800003248000034480000864800008c480000b8480000d0490000
+    m_ExpandedIDs: ffffffff0000000010480000124800001448000016480000184800001a4800001c4800001e48000020480000224800002448000026480000284800002a4800002c4800002e4800003048000032480000344800003648000038480000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: Chapter10-Refraction
-      m_OriginalName: Chapter10-Refraction
+      m_Name: Chapter10-Mirror
+      m_OriginalName: Chapter10-Mirror
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 19856
+      m_UserData: 19074
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
       m_OriginalEventType: 0

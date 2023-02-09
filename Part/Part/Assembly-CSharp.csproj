@@ -62,6 +62,8 @@
   <ItemGroup>
     <None Include="Assets\Shaders\Shader_Book\Chapter9-Shadow.shader" />
     <None Include="Assets\Shaders\Shader_Book\Common\BumpedDiffuse.shader" />
+    <None Include="Assets\Shaders\Shader_Book\Chapter10-Mirror.shader" />
+    <None Include="Assets\Shaders\Shader_Book\Chapter10-Fresnel.shader" />
     <None Include="Assets\Shaders\Shader_Book\Common\BumpedSpecular.shader" />
     <None Include="Assets\Shaders\Shader_Book\Chapter6-SpecularVertexLevel.shader" />
     <None Include="Assets\Shaders\Shader_Book\Chapter6-DiffusePixelLevel.shader" />
