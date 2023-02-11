@@ -1,1 +1,1 @@
-对图形学以及Unity Shader的学习
+对 Unity Shaders Book的学习笔记。包含完整代码与详细的中文思路注释
