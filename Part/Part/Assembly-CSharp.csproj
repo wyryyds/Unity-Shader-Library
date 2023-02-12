@@ -60,6 +60,11 @@
     <Compile Include="Assets\Scripts\SimpleCameraController.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\Shaders\Shader_Book\Chapter9-Shadow.shader" />
+    <None Include="Assets\Shaders\Shader_Book\Common\BumpedDiffuse.shader" />
+    <None Include="Assets\Shaders\Shader_Book\Chapter10-Mirror.shader" />
+    <None Include="Assets\Shaders\Shader_Book\Chapter10-Fresnel.shader" />
+    <None Include="Assets\Shaders\Shader_Book\Common\BumpedSpecular.shader" />
     <None Include="Assets\Shaders\Shader_Book\Chapter6-SpecularVertexLevel.shader" />
     <None Include="Assets\Shaders\Shader_Book\Chapter6-DiffusePixelLevel.shader" />
     <None Include="Assets\Shaders\Shader_Book\Chapter8-AlphaBlendBothSided.shader" />
@@ -67,18 +72,23 @@
     <None Include="Assets\Shaders\Shader_Book\Chapter7-NormalMapWorldSpace.shader" />
     <None Include="Assets\Shaders\Shader_Book\Chapter7-RampTexture.shader" />
     <None Include="Assets\Shaders\Shader_Book\Chapter7-SingleTexture.shader" />
+    <None Include="Assets\Shaders\Shader_Book\Chapter10-Refraction.shader" />
+    <None Include="Assets\Shaders\Shader_Book\Chapter9-AttenuationAndShadowUseBuildInFunctions.shader" />
     <None Include="Assets\Shaders\Shader_Book\Chapter6-HalfLambert.shader" />
     <None Include="Assets\Shaders\Shader_Book\Chapter5-SimpleShader.shader" />
     <None Include="Assets\Shaders\NiloZOffset.hlsl" />
     <None Include="Assets\Shaders\Shader_Book\Chapter7-MaskTexture.shader" />
     <None Include="Assets\Shaders\Shader_Book\Chapter9-ForwardRendering.shader" />
+    <None Include="Assets\Shaders\Shader_Book\Chapter10-Reflection.shader" />
     <None Include="Assets\Shaders\Shader_Book\Chapter6-SPecularPixelLevel.shader" />
     <None Include="Assets\Shaders\SimpleURPToonLitOutlineExample_Shared.hlsl" />
     <None Include="Assets\Shaders\SimpleURPToonLitOutlineExample_LightingEquation.hlsl" />
+    <None Include="Assets\Shaders\Shader_Book\Chapter9-AlphaTestWithShadow.shader" />
     <None Include="Assets\Shaders\Shader_Book\Chapter8-AlphaBlendZWrite.shader" />
     <None Include="Assets\Shaders\Shader_Book\Chapter6-DiffuseVertexLevel.shader" />
     <None Include="Assets\Shaders\Shader_Book\Chapter7-NormalMapTangentSpace.shader" />
     <None Include="Assets\Shaders\Shader_Book\Chapter8-AlphaTest.shader" />
+    <None Include="Assets\Shaders\Shader_Book\Chapter10-GlassRefraction.shader" />
     <None Include="Assets\Shaders\NiloInvLerpRemap.hlsl" />
     <None Include="Assets\Shaders\Shader_Book\Chapter6-BlinnPhpng.shader" />
     <None Include="Assets\Shaders\SimpleURPToonLitOutlineExample.shader" />

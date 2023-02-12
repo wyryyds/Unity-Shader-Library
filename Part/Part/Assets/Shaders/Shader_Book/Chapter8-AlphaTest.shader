@@ -74,6 +74,6 @@ Shader"Unity Shaders Book/Chapter 8/Alpha Test"
 				ENDCG
 			}
 		}
-			Fallback"Transparent/Cutotu/VertexLit"
+			Fallback"Transparent/Cutout/VertexLit"
 
 }
