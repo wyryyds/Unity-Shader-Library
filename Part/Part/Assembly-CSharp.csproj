@@ -58,6 +58,7 @@
   <ItemGroup>
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
     <Compile Include="Assets\Scripts\SimpleCameraController.cs" />
+    <Compile Include="Assets\Scripts\ProceduralTextureGeneration.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Shaders\Shader_Book\Chapter9-Shadow.shader" />
