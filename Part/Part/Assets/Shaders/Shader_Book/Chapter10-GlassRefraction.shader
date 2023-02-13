@@ -1,4 +1,4 @@
-Shader"Unity Shaders book/Chapter 10/GlassRefraction"
+Shader"Unity Shaders Book/Chapter 10/GlassRefraction"
 {
 	Properties
 	{
