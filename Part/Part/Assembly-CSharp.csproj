@@ -57,8 +57,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
-    <Compile Include="Assets\Scripts\SimpleCameraController.cs" />
     <Compile Include="Assets\Scripts\ProceduralTextureGeneration.cs" />
+    <Compile Include="Assets\Scripts\SimpleCameraController.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Shaders\Shader_Book\Chapter9-Shadow.shader" />
@@ -94,6 +94,7 @@
     <None Include="Assets\Shaders\Shader_Book\Chapter6-BlinnPhpng.shader" />
     <None Include="Assets\Shaders\SimpleURPToonLitOutlineExample.shader" />
     <None Include="Assets\Shaders\Shader_Book\Chapter8-AlphaBlend.shader" />
+    <None Include="Assets\Shaders\Shader_Book\Chapter11-ImageSequenceAnimation.shader" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
