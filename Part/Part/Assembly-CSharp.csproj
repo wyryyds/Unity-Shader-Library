@@ -73,6 +73,7 @@
     <None Include="Assets\Shaders\Shader_Book\Chapter7-NormalMapWorldSpace.shader" />
     <None Include="Assets\Shaders\Shader_Book\Chapter7-RampTexture.shader" />
     <None Include="Assets\Shaders\Shader_Book\Chapter7-SingleTexture.shader" />
+    <None Include="Assets\Shaders\Shader_Book\Chapter11-ScrollingBackground.shader" />
     <None Include="Assets\Shaders\Shader_Book\Chapter10-Refraction.shader" />
     <None Include="Assets\Shaders\Shader_Book\Chapter9-AttenuationAndShadowUseBuildInFunctions.shader" />
     <None Include="Assets\Shaders\Shader_Book\Chapter6-HalfLambert.shader" />
