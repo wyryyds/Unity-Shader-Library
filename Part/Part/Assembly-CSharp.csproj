@@ -90,6 +90,8 @@
     <None Include="Assets\Shaders\Shader_Book\Chapter6-DiffuseVertexLevel.shader" />
     <None Include="Assets\Shaders\Shader_Book\Chapter7-NormalMapTangentSpace.shader" />
     <None Include="Assets\Shaders\Shader_Book\Chapter8-AlphaTest.shader" />
+    <None Include="Assets\Shaders\Shader_Book\Chapter11-Water.shader" />
+    <None Include="Assets\Shaders\Shader_Book\Chapter11-Billboard.shader" />
     <None Include="Assets\Shaders\Shader_Book\Chapter10-GlassRefraction.shader" />
     <None Include="Assets\Shaders\NiloInvLerpRemap.hlsl" />
     <None Include="Assets\Shaders\Shader_Book\Chapter6-BlinnPhpng.shader" />

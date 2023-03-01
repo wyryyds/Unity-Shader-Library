@@ -15,11 +15,11 @@ D:/ShaderStudy/Shader_Study/Part/Part
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-56249
+61451
 Successfully changed project path to: D:/ShaderStudy/Shader_Study/Part/Part
 D:/ShaderStudy/Shader_Study/Part/Part
 Using Asset Import Pipeline V2.
-AS: AutoStreaming module initializing.Refreshing native plugins compatible for Editor in 44.16 ms, found 2 plugins.
+AS: AutoStreaming module initializing.Refreshing native plugins compatible for Editor in 44.67 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.33f1c2 (8e753a737e7b)
 [Subsystems] Discovering subsystems at path D:/unity hub/2020.3.33f1c2/Editor/Data/Resources/UnitySubsystems
@@ -36,37 +36,37 @@ Initialize mono
 Mono path[0] = 'D:/unity hub/2020.3.33f1c2/Editor/Data/Managed'
 Mono path[1] = 'D:/unity hub/2020.3.33f1c2/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/unity hub/2020.3.33f1c2/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56988
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56012
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/unity hub/2020.3.33f1c2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001032 seconds.
+Registered in 0.001601 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 41.95 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 46.66 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.458 seconds
+- Completed reload, in  0.475 seconds
 Domain Reload Profiling:
-	ReloadAssembly (459ms)
-		BeginReloadAssembly (57ms)
+	ReloadAssembly (476ms)
+		BeginReloadAssembly (59ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (350ms)
-			LoadAssemblies (57ms)
+		EndReloadAssembly (363ms)
+			LoadAssemblies (59ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (102ms)
+			SetupTypeCache (106ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (24ms)
-			SetupLoadedEditorAssemblies (144ms)
+			SetupLoadedEditorAssemblies (151ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (42ms)
-				BeforeProcessingInitializeOnLoad (13ms)
-				ProcessInitializeOnLoadAttributes (64ms)
+				RefreshPlugins (47ms)
+				BeforeProcessingInitializeOnLoad (14ms)
+				ProcessInitializeOnLoadAttributes (66ms)
 				ProcessInitializeOnLoadMethodAttributes (21ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
@@ -74,53 +74,53 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002985 seconds.
+Registered in 0.003049 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\ShaderStudy\Shader_Study\Part\Part\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 44.87 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 42.97 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.900 seconds
+- Completed reload, in  0.877 seconds
 Domain Reload Profiling:
-	ReloadAssembly (900ms)
-		BeginReloadAssembly (127ms)
+	ReloadAssembly (878ms)
+		BeginReloadAssembly (125ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (18ms)
-		EndReloadAssembly (730ms)
-			LoadAssemblies (95ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (712ms)
+			LoadAssemblies (96ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (228ms)
+			SetupTypeCache (224ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (42ms)
-			SetupLoadedEditorAssemblies (293ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (282ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (45ms)
-				BeforeProcessingInitializeOnLoad (72ms)
-				ProcessInitializeOnLoadAttributes (161ms)
+				RefreshPlugins (43ms)
+				BeforeProcessingInitializeOnLoad (71ms)
+				ProcessInitializeOnLoadAttributes (155ms)
 				ProcessInitializeOnLoadMethodAttributes (8ms)
 				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Unity Shaders Book/Chapter 10/Refraction': fallback shader 'Refractive/VertexLit' not found
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2797 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 138.0 MB.
-System memory in use after: 138.2 MB.
+Unloading 2798 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 138.2 MB.
+System memory in use after: 138.4 MB.
 
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3249.
-Total: 3.313000 ms (FindLiveObjects: 0.277400 ms CreateObjectMapping: 0.195300 ms MarkObjects: 2.710000 ms  DeleteObjects: 0.129600 ms)
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3250.
+Total: 3.116300 ms (FindLiveObjects: 0.239000 ms CreateObjectMapping: 0.141600 ms MarkObjects: 2.613600 ms  DeleteObjects: 0.121200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -135,65 +135,148 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Scenes/Scene_11_2_2.unity
-  artifactKey: Guid(4b606365c80659b48b0b87ff2ddcf32d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scene_11_2_2.unity using Guid(4b606365c80659b48b0b87ff2ddcf32d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d8eb270d8bfddbb67ea638d6c0f94e7') in 0.005777 seconds 
+  path: Assets/Scenes/Scene_11_3_1.unity
+  artifactKey: Guid(efd1adbff92869b4faa0d011fb40113d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Scene_11_3_1.unity using Guid(efd1adbff92869b4faa0d011fb40113d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a6fb585670de7f6502ef1f1e1784149') in 0.005838 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 10.477294 seconds.
-  path: Assets/Materials/Shader_Book/ImageSequenceAnimationMat.mat
-  artifactKey: Guid(84a8d651a82fbca4da47df27ab42c956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Shader_Book/ImageSequenceAnimationMat.mat using Guid(84a8d651a82fbca4da47df27ab42c956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72f738f8649837cd5ade13c4ece1c3aa') in 0.110041 seconds 
+  Time since last request: 9.597191 seconds.
+  path: Assets/Materials/Shader_Book/ScrollingBackgroundMat.mat
+  artifactKey: Guid(bf4bbf774d0dd814ab31599adc0649fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Shader_Book/ScrollingBackgroundMat.mat using Guid(bf4bbf774d0dd814ab31599adc0649fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9290bdcd4f89f2720767b004186251e9') in 0.139912 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 144.238483 seconds.
-  path: Assets/Shaders/Shader_Book/Chapter11-ScrollingBackground.shader
-  artifactKey: Guid(5518018b2ad42cf42b99954851f240d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/Shader_Book/Chapter11-ScrollingBackground.shader using Guid(5518018b2ad42cf42b99954851f240d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ff7c095514f4877319e8ed59b760be3') in 0.011833 seconds 
+  Time since last request: 80.283581 seconds.
+  path: Assets/Textures/Chapter11
+  artifactKey: Guid(cdef7120ea50e4f3a919dd9dee40cba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Chapter11 using Guid(cdef7120ea50e4f3a919dd9dee40cba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd3d8a2987e64b4547246977f9ff0e2d') in 0.002392 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1330.629552 seconds.
-  path: Assets/Shaders/Shader_Book/Chapter11-ScrollingBackground.shader
-  artifactKey: Guid(5518018b2ad42cf42b99954851f240d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/Shader_Book/Chapter11-ScrollingBackground.shader using Guid(5518018b2ad42cf42b99954851f240d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f116ea4440fc5c99445e9719bdd8438e') in 0.003097 seconds 
+  Time since last request: 23.118197 seconds.
+  path: Assets/Textures/Chapter11/Chapter11-Water.shader
+  artifactKey: Guid(8ca35fd19cd33e847b6ed8504101baa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Chapter11/Chapter11-Water.shader using Guid(8ca35fd19cd33e847b6ed8504101baa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2bd5bb5c1ca2858e1ad010630563d94') in 0.010571 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 11.850455 seconds.
-  path: Assets/Shaders/Shader_Book/Chapter11-ScrollingBackground.shader
-  artifactKey: Guid(5518018b2ad42cf42b99954851f240d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/Shader_Book/Chapter11-ScrollingBackground.shader using Guid(5518018b2ad42cf42b99954851f240d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9e1c1b5e356facfecf1b31ad07d7fed') in 0.002878 seconds 
+  Time since last request: 2303.972604 seconds.
+  path: Assets/Shaders/Shader_Book/Chapter11-Water.shader
+  artifactKey: Guid(8ca35fd19cd33e847b6ed8504101baa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Shader_Book/Chapter11-Water.shader using Guid(8ca35fd19cd33e847b6ed8504101baa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66b32489e201f3ba53843cf19b1907c2') in 0.035887 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.214446 seconds.
+  path: Assets/Shaders/Shader_Book/Chapter11-Water.shader
+  artifactKey: Guid(8ca35fd19cd33e847b6ed8504101baa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Shader_Book/Chapter11-Water.shader using Guid(8ca35fd19cd33e847b6ed8504101baa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e45a67497a90c9569cf162cd678583d8') in 0.003138 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.777484 seconds.
+  path: Assets/Shaders/Shader_Book/Chapter11-Water.shader
+  artifactKey: Guid(8ca35fd19cd33e847b6ed8504101baa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Shader_Book/Chapter11-Water.shader using Guid(8ca35fd19cd33e847b6ed8504101baa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a43bcca3aa75c47390ab6fa3988cc98') in 0.003106 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.391900 seconds.
+  path: Assets/Shaders/Shader_Book/Chapter11-Water.shader
+  artifactKey: Guid(8ca35fd19cd33e847b6ed8504101baa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Shader_Book/Chapter11-Water.shader using Guid(8ca35fd19cd33e847b6ed8504101baa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '992bcaee77a2d11cf018808abc27b3c1') in 0.002874 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 41.289944 seconds.
+  path: Assets/Shaders/Shader_Book/Chapter11-Water.shader
+  artifactKey: Guid(8ca35fd19cd33e847b6ed8504101baa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Shader_Book/Chapter11-Water.shader using Guid(8ca35fd19cd33e847b6ed8504101baa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ce1c95891c4b928d05ffb0e63bce842') in 0.003037 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004229 seconds.
+Registered in 0.004297 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\ShaderStudy\Shader_Study\Part\Part\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.927 seconds
+Domain Reload Profiling:
+	ReloadAssembly (928ms)
+		BeginReloadAssembly (185ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (77ms)
+		EndReloadAssembly (697ms)
+			LoadAssemblies (109ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (234ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (271ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (82ms)
+				ProcessInitializeOnLoadAttributes (172ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Shader 'Unity Shaders Book/Chapter 10/Refraction': fallback shader 'Refractive/VertexLit' not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2709 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 133.0 MB.
+System memory in use after: 133.1 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3293.
+Total: 4.434900 ms (FindLiveObjects: 0.248000 ms CreateObjectMapping: 0.141300 ms MarkObjects: 3.934700 ms  DeleteObjects: 0.109800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003498 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\ShaderStudy\Shader_Study\Part\Part\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.800 seconds
+- Completed reload, in  0.801 seconds
 Domain Reload Profiling:
-	ReloadAssembly (800ms)
-		BeginReloadAssembly (111ms)
+	ReloadAssembly (802ms)
+		BeginReloadAssembly (104ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (32ms)
-		EndReloadAssembly (647ms)
-			LoadAssemblies (95ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (656ms)
+			LoadAssemblies (91ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (216ms)
-			ReleaseScriptCaches (2ms)
+			SetupTypeCache (213ms)
+			ReleaseScriptCaches (1ms)
 			RebuildScriptCaches (43ms)
-			SetupLoadedEditorAssemblies (249ms)
+			SetupLoadedEditorAssemblies (260ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (78ms)
-				ProcessInitializeOnLoadAttributes (157ms)
+				BeforeProcessingInitializeOnLoad (80ms)
+				ProcessInitializeOnLoadAttributes (165ms)
 				ProcessInitializeOnLoadMethodAttributes (8ms)
 				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
@@ -201,14 +284,14 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 Shader 'Unity Shaders Book/Chapter 10/Refraction': fallback shader 'Refractive/VertexLit' not found
-Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2709 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 132.9 MB.
-System memory in use after: 133.0 MB.
+System memory in use before: 133.0 MB.
+System memory in use after: 133.2 MB.
 
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3292.
-Total: 2.885900 ms (FindLiveObjects: 0.241500 ms CreateObjectMapping: 0.126500 ms MarkObjects: 2.415500 ms  DeleteObjects: 0.101600 ms)
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3296.
+Total: 3.240700 ms (FindLiveObjects: 0.244000 ms CreateObjectMapping: 0.136700 ms MarkObjects: 2.755900 ms  DeleteObjects: 0.103300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -221,4 +304,70 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1262.534563 seconds.
+  path: Assets/Scenes/Scene_11_3_2.unity
+  artifactKey: Guid(60c1ae8567988264fb7b91a293ca483e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Scene_11_3_2.unity using Guid(60c1ae8567988264fb7b91a293ca483e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '553e4a343510e4c84a1af4263af24f4c') in 0.006533 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.515945 seconds.
+  path: Assets/Models/Book_Models/Materials/No Name.mat
+  artifactKey: Guid(df8db161cc4004558958e9a773d23a67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Book_Models/Materials/No Name.mat using Guid(df8db161cc4004558958e9a773d23a67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed98db7aec2e0a6dd1bb849793c1394f') in 0.114751 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Materials/Shader_Book/WaterMat.mat
+  artifactKey: Guid(e2761ac28b8e81645b74b5e7633a7e25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Shader_Book/WaterMat.mat using Guid(e2761ac28b8e81645b74b5e7633a7e25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0035b63ca7b857b40a148747cb6f9357') in 0.019377 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Materials/Shader_Book/WaterMat1.mat
+  artifactKey: Guid(de2b2753733143b49aaa0aea5d42bc58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Shader_Book/WaterMat1.mat using Guid(de2b2753733143b49aaa0aea5d42bc58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd21a8c27fd070bac96aa973265f93477') in 0.013177 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Materials/Shader_Book/WaterMat2.mat
+  artifactKey: Guid(06111e0023dbe2643a65c235cad959e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Shader_Book/WaterMat2.mat using Guid(06111e0023dbe2643a65c235cad959e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb86407f7a6518d04d654caee6dae962') in 0.012307 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 57.701570 seconds.
+  path: Assets/Shaders/Shader_Book/Chapter11-Billboard.shader
+  artifactKey: Guid(dc7c7171d81e4c54d9f222f59dc25025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Shader_Book/Chapter11-Billboard.shader using Guid(dc7c7171d81e4c54d9f222f59dc25025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9739f3f32bc3c0d439b2d92617e09f7') in 0.004575 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1922.367824 seconds.
+  path: Assets/Shaders/Shader_Book/Chapter11-Billboard.shader
+  artifactKey: Guid(dc7c7171d81e4c54d9f222f59dc25025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Shader_Book/Chapter11-Billboard.shader using Guid(dc7c7171d81e4c54d9f222f59dc25025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4075f10620d8e46eb2dfb1d67a561be8') in 0.002989 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.502697 seconds.
+  path: Assets/Shaders/Shader_Book/Chapter11-Billboard.shader
+  artifactKey: Guid(dc7c7171d81e4c54d9f222f59dc25025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Shader_Book/Chapter11-Billboard.shader using Guid(dc7c7171d81e4c54d9f222f59dc25025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a1569b60e98ee9003fde917688075f1') in 0.003127 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.622450 seconds.
+  path: Assets/Shaders/Shader_Book/Chapter11-Billboard.shader
+  artifactKey: Guid(dc7c7171d81e4c54d9f222f59dc25025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Shader_Book/Chapter11-Billboard.shader using Guid(dc7c7171d81e4c54d9f222f59dc25025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd146cb49440cc9e3af7b6211acb16190') in 0.003056 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 29.534581 seconds.
+  path: Assets/Shaders/Shader_Book/Chapter11-Billboard.shader
+  artifactKey: Guid(dc7c7171d81e4c54d9f222f59dc25025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Shader_Book/Chapter11-Billboard.shader using Guid(dc7c7171d81e4c54d9f222f59dc25025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '766ac0ffdd7ee241503af31795e3965f') in 0.003108 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.256294 seconds.
+  path: Assets/Shaders/Shader_Book/Chapter11-Billboard.shader
+  artifactKey: Guid(dc7c7171d81e4c54d9f222f59dc25025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Shader_Book/Chapter11-Billboard.shader using Guid(dc7c7171d81e4c54d9f222f59dc25025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0c0d6d71abaffc1271134c29fe6bebe') in 0.002897 seconds 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
