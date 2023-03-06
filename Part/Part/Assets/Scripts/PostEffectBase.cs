@@ -4,7 +4,7 @@ using UnityEngine;
 
 [ExecuteInEditMode]
 [RequireComponent(typeof(Camera))]
-public class PostEffectBase : MonoBehaviour
+public class PostEffectsBase : MonoBehaviour
 {
     /// <summary>
     /// 检测资源
@@ -42,7 +42,7 @@ public class PostEffectBase : MonoBehaviour
     /// <param name="shader">使用的shader</param>
     /// <param name="material">用于后处理的材质</param>
     /// <returns></returns>
-    protected Material CheckShaderAndCreatMaterial(Shader shader, Material material)
+    protected Material CheckShaderAndCreateMaterial(Shader shader, Material material)
     {
         if (shader == null) return null;
 

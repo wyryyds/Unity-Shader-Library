@@ -56,10 +56,10 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\PostEffectBase.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
     <Compile Include="Assets\Scripts\ProceduralTextureGeneration.cs" />
     <Compile Include="Assets\Scripts\SimpleCameraController.cs" />
-    <Compile Include="Assets\Scripts\PostEffectBase.cs" />
     <Compile Include="Assets\Scripts\BrightnessSaturationAndContrast.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -91,6 +91,7 @@
     <None Include="Assets\Shaders\Shader_Book\Chapter8-AlphaBlendZWrite.shader" />
     <None Include="Assets\Shaders\Shader_Book\Chapter6-DiffuseVertexLevel.shader" />
     <None Include="Assets\Shaders\Shader_Book\Chapter7-NormalMapTangentSpace.shader" />
+    <None Include="Assets\Shaders\Shader_Book\Chapter12-BrightnessSatyrationAndContrast.shader" />
     <None Include="Assets\Shaders\Shader_Book\Chapter8-AlphaTest.shader" />
     <None Include="Assets\Shaders\Shader_Book\Chapter11-Water.shader" />
     <None Include="Assets\Shaders\Shader_Book\Chapter11-Billboard.shader" />
