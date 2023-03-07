@@ -1,4 +1,4 @@
-using System.Collections;
+ï»¿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -7,7 +7,7 @@ using UnityEngine;
 public class PostEffectsBase : MonoBehaviour
 {
     /// <summary>
-    /// ¼ì²â×ÊÔ´
+    /// æ£€æµ‹èµ„æº
     /// </summary>
     protected void CheckResources()
     {
@@ -16,7 +16,7 @@ public class PostEffectsBase : MonoBehaviour
             NotSupported();
     }
     /// <summary>
-    /// Æ½Ì¨ÊÇ·ñÖ§³ÖÏàÓ¦µÄäÖÈ¾¹¦ÄÜ
+    /// å¹³å°æ˜¯å¦æ”¯æŒç›¸åº”çš„æ¸²æŸ“åŠŸèƒ½
     /// </summary>
     /// <returns></returns>
     protected bool CheckSupport()
@@ -37,10 +37,10 @@ public class PostEffectsBase : MonoBehaviour
         CheckResources();
     }
     /// <summary>
-    /// ¼ì²âshader²¢ÇÒ´´½¨²ÄÖÊ
+    /// æ£€æµ‹shaderå¹¶ä¸”åˆ›å»ºæè´¨
     /// </summary>
-    /// <param name="shader">Ê¹ÓÃµÄshader</param>
-    /// <param name="material">ÓÃÓÚºó´¦ÀíµÄ²ÄÖÊ</param>
+    /// <param name="shader">ä½¿ç”¨çš„shader</param>
+    /// <param name="material">ç”¨äºåå¤„ç†çš„æè´¨</param>
     /// <returns></returns>
     protected Material CheckShaderAndCreateMaterial(Shader shader, Material material)
     {

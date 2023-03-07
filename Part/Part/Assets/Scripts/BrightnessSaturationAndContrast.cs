@@ -6,7 +6,7 @@ public class BrightnessSaturationAndContrast : PostEffectsBase
 
 	public Shader briSatConShader;
 	private Material briSatConMaterial;
-	public Material material
+	public Material Material
 	{
 		get
 		{
@@ -26,13 +26,13 @@ public class BrightnessSaturationAndContrast : PostEffectsBase
 
 	void OnRenderImage(RenderTexture src, RenderTexture dest)
 	{
-		if (material != null)
+		if (Material != null)
 		{
-			material.SetFloat("_Brightness", brightness);
-			material.SetFloat("_Saturation", saturation);
-			material.SetFloat("_Contrast", contrast);
+			Material.SetFloat("_Brightness", brightness);
+			Material.SetFloat("_Saturation", saturation);
+			Material.SetFloat("_Contrast", contrast);
 
-			Graphics.Blit(src, dest, material);
+			Graphics.Blit(src, dest, Material);
 		}
 		else
 		{

@@ -40,15 +40,14 @@ Shader "Unity Shaders Book/Chapter 12/Brightness Saturation And Contrast" {
 				fixed4 frag(v2f i) : SV_Target {
 					fixed4 renderTex = tex2D(_MainTex, i.uv);
 
-				// Apply brightness
 				fixed3 finalColor = renderTex.rgb * _Brightness;
 
-				// Apply saturation
+				//RGB转YUV的BT709明亮度转换公式，是基于人眼感知的图像灰度处理公式。
+				//这条公式通过计算每个像素RGB值对应的灰度值，来把RGB彩色图像转换为灰度图。
 				fixed luminance = 0.2125 * renderTex.r + 0.7154 * renderTex.g + 0.0721 * renderTex.b;
 				fixed3 luminanceColor = fixed3(luminance, luminance, luminance);
 				finalColor = lerp(luminanceColor, finalColor, _Saturation);
 
-				// Apply contrast
 				fixed3 avgColor = fixed3(0.5, 0.5, 0.5);
 				finalColor = lerp(avgColor, finalColor, _Contrast);
 

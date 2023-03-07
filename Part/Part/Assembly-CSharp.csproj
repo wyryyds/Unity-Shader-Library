@@ -61,6 +61,7 @@
     <Compile Include="Assets\Scripts\ProceduralTextureGeneration.cs" />
     <Compile Include="Assets\Scripts\SimpleCameraController.cs" />
     <Compile Include="Assets\Scripts\BrightnessSaturationAndContrast.cs" />
+    <Compile Include="Assets\Scripts\EdgeDetection.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Shaders\Shader_Book\Chapter9-Shadow.shader" />
@@ -84,6 +85,7 @@
     <None Include="Assets\Shaders\Shader_Book\Chapter7-MaskTexture.shader" />
     <None Include="Assets\Shaders\Shader_Book\Chapter9-ForwardRendering.shader" />
     <None Include="Assets\Shaders\Shader_Book\Chapter10-Reflection.shader" />
+    <None Include="Assets\Shaders\Shader_Book\Chapter12-EdgeDetection.shader" />
     <None Include="Assets\Shaders\Shader_Book\Chapter6-SPecularPixelLevel.shader" />
     <None Include="Assets\Shaders\SimpleURPToonLitOutlineExample_Shared.hlsl" />
     <None Include="Assets\Shaders\SimpleURPToonLitOutlineExample_LightingEquation.hlsl" />
