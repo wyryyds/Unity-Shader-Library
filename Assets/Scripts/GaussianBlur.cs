@@ -14,13 +14,13 @@ public class GaussianBlur : PostEffectsBase
             return gaussianBlurMaterial;
         }
     }
-    //¸ßË¹Ä£ºıµü´ú´ÎÊı
+    //é«˜æ–¯æ¨¡ç³Šè¿­ä»£æ¬¡æ•°
     [Range(0, 4)]
     public int iterations=3;
-    //Ä£ºı·¶Î§
+    //æ¨¡ç³ŠèŒƒå›´
     [Range(0.2f, 3.0f)]
     public float blurSpread = 0.6f;
-    //Ëõ·ÅÏµÊı
+    //ç¼©æ”¾ç³»æ•°
     [Range(1, 8)]
     public int downSample = 2;
 
@@ -28,14 +28,14 @@ public class GaussianBlur : PostEffectsBase
     {
         if(Material!=null)
         {
-            //¶ÔÍ¼ÏñËõ·Å½µ²ÉÑù
+            //å¯¹å›¾åƒç¼©æ”¾é™é‡‡æ ·
             int rtw = source.width / downSample;
             int rth = source.height / downSample;
-            //½µ²ÉÑùÖ®ºó·ÖÅäÒ»¿éĞ¡ÓÚÔ­ÆÁÄ»·Ö±æÂÊ³ß´çµÄ»º´æÇø
+            //é™é‡‡æ ·ä¹‹ååˆ†é…ä¸€å—å°äºåŸå±å¹•åˆ†è¾¨ç‡å°ºå¯¸çš„ç¼“å­˜åŒº
             RenderTexture buffer0 = RenderTexture.GetTemporary(rtw, rth, 0);
-            //ÉèÖÃäÖÈ¾ÎÆÀíµÄÂË²¨Ä£Ê½ÎªË«ÏßĞÔ
+            //è®¾ç½®æ¸²æŸ“çº¹ç†çš„æ»¤æ³¢æ¨¡å¼ä¸ºåŒçº¿æ€§
             buffer0.filterMode = FilterMode.Bilinear;
-            //´æ´¢Ëõ·ÅºóµÄÍ¼ÏñÎÆÀí
+            //å­˜å‚¨ç¼©æ”¾åçš„å›¾åƒçº¹ç†
             Graphics.Blit(source, buffer0);
 
             for(int i = 0; i < iterations; i++)
@@ -43,23 +43,23 @@ public class GaussianBlur : PostEffectsBase
                 Material.SetFloat("_BlurSize", 1.0f + i * blurSpread);
                 RenderTexture buffer1 = RenderTexture.GetTemporary(rtw, rth, 0);
 
-                //Ö´ĞĞµÚÒ»¸öPass£¬ÒÔbuffer0ÎªÊäÈë£¬buffer1ÎªÊä³ö
-                //µÚÒ»¸öPassÖĞÊ¹ÓÃÊúÖ±·½ÏòµÄÒ»Î¬¸ßË¹ºË½øĞĞÂË²¨
+                //æ‰§è¡Œç¬¬ä¸€ä¸ªPassï¼Œä»¥buffer0ä¸ºè¾“å…¥ï¼Œbuffer1ä¸ºè¾“å‡º
+                //ç¬¬ä¸€ä¸ªPassä¸­ä½¿ç”¨ç«–ç›´æ–¹å‘çš„ä¸€ç»´é«˜æ–¯æ ¸è¿›è¡Œæ»¤æ³¢
                 Graphics.Blit(buffer0, buffer1, Material, 0);
 
-                //ÀûÓÃGetTemporaryÉêÇëÄÚ´æÖ®ºó±ØĞë»ØÊÕ
+                //åˆ©ç”¨GetTemporaryç”³è¯·å†…å­˜ä¹‹åå¿…é¡»å›æ”¶
                 RenderTexture.ReleaseTemporary(buffer0);
 
-                //½«Êä³öbuffer1´æ´¢µ½buffer0ÖĞ
+                //å°†è¾“å‡ºbuffer1å­˜å‚¨åˆ°buffer0ä¸­
                 buffer0 = buffer1;
 
-                //ÖØĞÂ·ÖÅäbuffer1
+                //é‡æ–°åˆ†é…buffer1
                 buffer1 = RenderTexture.GetTemporary(rtw, rth, 0);
 
-                //Ö´ĞĞµÚ¶ş¸öPass£¬ÒÔµÚÒ»¸öPassµÄÊä³ö×÷ÎªÊäÈë¡£
-                //Ê¹ÓÃË®Æ½·½ÏòµÄÒ»Î¬¸ßË¹ºË½øĞĞÂË²¨
+                //æ‰§è¡Œç¬¬äºŒä¸ªPassï¼Œä»¥ç¬¬ä¸€ä¸ªPassçš„è¾“å‡ºä½œä¸ºè¾“å…¥ã€‚
+                //ä½¿ç”¨æ°´å¹³æ–¹å‘çš„ä¸€ç»´é«˜æ–¯æ ¸è¿›è¡Œæ»¤æ³¢
                 Graphics.Blit(buffer0, buffer1, Material, 1);
-                //µü´ú
+                //è¿­ä»£
                 RenderTexture.ReleaseTemporary(buffer0);
                 buffer0 = buffer1;
             }

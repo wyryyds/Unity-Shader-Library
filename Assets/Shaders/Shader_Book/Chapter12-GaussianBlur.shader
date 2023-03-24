@@ -1,4 +1,4 @@
-Shader"Unity Shaders Book/Chapter 12/GaussianBlur"
+Shader"Unity Shaders Book/Chapter 12/Gaussian Blur"
 {
 	Properties
 	{
@@ -27,8 +27,8 @@ Shader"Unity Shaders Book/Chapter 12/GaussianBlur"
 			o.pos = UnityObjectToClipPos(v.vertex);
 
 			half2 uv = v.texcoord;
-			//µÚÒ»¸ö×ø±ê´æ´¢ÁËµ±Ç°µÄ²ÉÑùÎÆÀí
-			//Ê£ÓàµÄËÄ¸ö×ø±êÔòÊÇ¸ßË¹Ä£ºıÖĞ¶ÔÁìÓò²ÉÑùÊ±Ê¹ÓÃµÄÎÆÀí×ø±ê
+			//ç¬¬ä¸€ä¸ªåæ ‡å­˜å‚¨äº†å½“å‰çš„é‡‡æ ·çº¹ç†
+			//å‰©ä½™çš„å››ä¸ªåæ ‡åˆ™æ˜¯é«˜æ–¯æ¨¡ç³Šä¸­å¯¹é¢†åŸŸé‡‡æ ·æ—¶ä½¿ç”¨çš„çº¹ç†åæ ‡
 			o.uv[0] = uv;
 			o.uv[1] = uv + float2(0.0, _MainTex_TexelSize.y * 1.0) * _BlurSize;
 			o.uv[2] = uv - float2(0.0, _MainTex_TexelSize.y * 1.0) * _BlurSize;
