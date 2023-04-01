@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: DissolveMat
-  m_Shader: {fileID: 4800000, guid: 47c301c9e3d29a847ae4f3a2f6143c7e, type: 3}
+  m_Name: BoxMat
+  m_Shader: {fileID: 4800000, guid: 01983a0bf9386c04b95610c07a97e028, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -20,11 +20,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _BumpMap:
-        m_Texture: {fileID: 2800000, guid: 0cb10a02e380145908d659b28d08af69, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _BurnMap:
-        m_Texture: {fileID: 2800000, guid: 0df7a0b61c9dfa6408ae01459c10ffec, type: 3}
+        m_Texture: {fileID: 2800000, guid: 8cea7b64aae4249dfa2b70dcd82d056f, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailAlbedoMap:
@@ -44,7 +40,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: efcd09a5f38eb4e4f88f6ab9ca416799, type: 3}
+        m_Texture: {fileID: 2800000, guid: 07b7bc8df2e6c42cabf341c276c3e355, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -61,14 +57,12 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _BumpScale: 1
-    - _BurnAmount: 0.137
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
-    - _LineWidth: 0.15
     - _Metallic: 0
     - _Mode: 0
     - _OcclusionStrength: 1
@@ -79,8 +73,6 @@ Material:
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
-    - _BurnFirstColor: {r: 0.48490566, g: 0.5777915, b: 1, a: 1}
-    - _BurnSecondColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
   m_BuildTextureStacks: []
